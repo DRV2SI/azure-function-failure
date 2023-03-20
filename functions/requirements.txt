@@ -1,0 +1,9 @@
+# Do not include azure-functions-worker in this file
+# The Python Worker is managed by the Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+# see here: https://learn.microsoft.com/en-us/azure/azure-monitor/app/opencensus-python
+
+azure-functions
+opencensus-ext-azure
+azure-core-tracing-opencensus
